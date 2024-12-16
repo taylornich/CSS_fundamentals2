@@ -1,0 +1,54 @@
+#main-header {
+    background-color: rgb(252, 235, 216);
+}
+#footer {
+    background-color:rgb(252, 235, 216);
+}
+
+h1 {
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2, h3 {
+    font-size: 16pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.recipe-container {
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    max-width: 800px;
+    background-color: rgb(216, 176, 253);
+}
+.recipe-container a {
+    color:rgb(43, 102, 230);
+    text-decoration: none,
+}
+
+.recipe-container a:hover {
+    color: rgba(63, 3, 63, 0.267);
+    text-decoration: underline;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+body {
+    background-color: rgb(208, 193, 223);
+    margin: 15px;
+    padding: 15px;
+    font-size: 12pt;
+}
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+ol {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}

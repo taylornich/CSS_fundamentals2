@@ -1,0 +1,99 @@
+.main-page-header {
+    text-align: center;
+    background-color: azure;
+    font-size: 15pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title {
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.submit-container {
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.submit-container a {
+    color:rgb(21, 143, 102);
+    text-decoration: none;
+}
+
+.submit-container a:hover {
+    color:blueviolet;
+    text-decoration: underline;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.form-header {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input[type="text"], textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5b7b7;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    background-color: #1b4220;
+    border: none;
+    color:bisque;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #551c66;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-link a {
+    color: #030c18;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+
